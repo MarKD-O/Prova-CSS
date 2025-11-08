@@ -1,0 +1,142 @@
+/* Gerral */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: Arial, sans-serif;
+
+}
+
+/* Header/Nav */
+
+header {
+
+    background-color: rgb(20, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+a {
+
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+nav ul {
+
+    list-style: none;
+    display: flex;
+
+}
+
+nav a {
+
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+/* Título */
+
+h3 {
+
+    text-align: center;
+    margin: 50px;
+    font-size: 25px;
+
+}
+
+/* Section */
+
+section {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+article {
+
+    flex: 1 1 250px; 
+    margin: 10px;
+    text-align: left;
+    flex-direction: column;
+
+}
+
+article p {
+
+    text-align: center;
+    margin-top: 5px;
+    font-size: 14px;
+    opacity: 50%;
+
+}
+
+img {
+
+    width: 500px;
+
+}
+
+article img {
+
+    max-width: 100%;
+    height: auto;
+    object-fit: cover; 
+
+}
+
+/* Media */
+
+@media (max-width: 670px) {
+
+    header {
+
+        width: auto;
+        height: 200px;
+    
+    }
+
+    a {
+
+        color: white;
+        text-decoration: none;
+        margin: 20px;
+        font-size: 100px;
+
+    }
+
+    nav ul {
+
+        list-style: none;
+        display: flex;
+
+    }
+
+    nav a {
+
+        color: white;
+        text-decoration: none;
+        font-size: 50px;
+
+    }
+
+}
